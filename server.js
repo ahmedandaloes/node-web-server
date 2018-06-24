@@ -64,5 +64,5 @@ app.get('/bad', (req,res) => {
 
 
 app.listen(port, () => { 
-    console.log('server is up at port 3000 succes');
+    console.log(`server is up at port ${port}`);
 });
